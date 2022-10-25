@@ -1,6 +1,7 @@
 import { HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
 import "dotenv/config"
+import "./tasks"
 
 const config: HardhatUserConfig = {
   solidity: { version: "0.8.16" },
