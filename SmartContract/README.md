@@ -1,6 +1,6 @@
 # Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Пример простого контракта, который хранит переменную - cid файла в сети IPFS
 
 Try running some of the following tasks:
 
