@@ -48,7 +48,7 @@ HTTP был изобретен в 1991 г., принят веб-браузера
 
 #### IPFS 
 Установка и запуск:  
-Необходимо установить IPFS client (https://ipfs.tech/#install)
+Необходимо установить IPFS client (https://ipfs.tech/#install)  
 `git clone`  
 `npm install`  
 `npm run start:dev`  
