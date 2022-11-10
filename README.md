@@ -48,17 +48,26 @@ HTTP был изобретен в 1991 г., принят веб-браузера
 
 #### IPFS 
 Установка и запуск:  
-`
-npm install`  
+Необходимо установить IPFS client (https://ipfs.tech/#install)
+`git clone`  
+`npm install`  
 `npm run start:dev`  
 
-Далее с помощью **post** запроса можно добавить файл в сеть IPFS
-Адрес: http://localhost:3000/getFile/
+
+Далее с помощью **post** запроса можно добавить файл в сеть IPFS:  
+Адрес: http://localhost:3000/getFile/  
+```
 Body:
 {
 		"path": "message.txt",
 		"content": "postman says whassup!"
 }
-path - Название файла
-Content - Содержимое файла (Если файд с названием path существует в директории files/send, то игнорируется)
+```
+path - Название файла;  
+content - Содержимое файла (Если файл с названием path существует в директории files/send, то содержимое игнорируется).  
+Файлы загружаются некоторое время (У меня получалось около 5 минут).  
 
+С помощью **get** запроса можно получить файл из сети IPFS:  
+Адрес: http://localhost:3000/getFile/nameFile/cid  
+nameFile - имя файла для сохранения на компьютере в папке files/get;  
+cid - хэш файла в сети IPFS.  
