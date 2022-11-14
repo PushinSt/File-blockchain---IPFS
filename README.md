@@ -1,4 +1,3 @@
-.  
 # IPFS
 IPFS with Ethereum based file blockchain
 
