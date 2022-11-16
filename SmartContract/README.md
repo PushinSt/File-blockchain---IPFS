@@ -1,13 +1,17 @@
 # Sample Hardhat Project
 
-Пример простого контракта, который хранит переменную - cid файла в сети IPFS
+Пример простого контракта, который позволяет записать и получить переменную - cid файла в сети IPFS
 
-Try running some of the following tasks:
-
+For run:  
+Заполнить файл .env по примеру.
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
+$ npm install
+
+$ npx hardhat compile
+$ npx hardhat test
+
+$ npx hardhat run scripts/deploy.ts --network testnetBNB
+
+$ npx hardhat send-hash --network testnetBNB --hash $hash
+$ npx hardhat get-hash --network testnetBNB
 ```
