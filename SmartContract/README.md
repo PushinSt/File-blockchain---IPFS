@@ -15,3 +15,8 @@ $ npx hardhat run scripts/deploy.ts --network testnetBNB
 $ npx hardhat send-hash --network testnetBNB --hash $hash
 $ npx hardhat get-hash --network testnetBNB
 ```
+
+olololo check git merge
+ggggg
+hhhhhhhh
+yyyyyyyy 
