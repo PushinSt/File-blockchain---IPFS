@@ -33,3 +33,11 @@ cid - cid файла в сети IPFS
 http://localhost:3000/getFile/nameFile.jpg/QmWyWr6BQXox7t57xsUKWkPoyKFEBiQgSjhBruxMtUE4YKK  
 ```
 По итогу файл загружается в папку IPFS/files/get  
+
+fsdffs
+checkck
+check 
+ppp
+hhhh
+yyyy
+gggg
