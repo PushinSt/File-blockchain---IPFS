@@ -19,4 +19,9 @@ $ npx hardhat get-hash --network testnetBNB
 olololo check git merge
 ggggg
 hhhhhhhh
+aas
+fsdfsd
+s
+gsd
+g
 yyyyyyyy 
