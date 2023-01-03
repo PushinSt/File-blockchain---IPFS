@@ -3,7 +3,7 @@ IPFS with Ethereum based file blockchain
 
 Два репозитория:
 - IPFS - пример, как работать с сетью IPFS;
-- SmartContract - пример как можно использовать возможности блокчейна для сети IPFS. 
+- SmartContract - пример, как можно использовать возможности блокчейна для сети IPFS. 
 
 ## IPFS
 ### Введение
